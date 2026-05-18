@@ -198,7 +198,11 @@
     {
       "@type": "Product",
       "@id": "https://padelkultura.id/Padel-Tipe-Super-Panoramic.html",
-      "image": "https://padelkultura.id/images/lapanganpadelsuperpaanoramic.webp",
+      "image": [
+        "https://padelkultura.id/images/lapanganpadelsuperpaanoramic.webp",
+        "https://padelkultura.id/images/design-lapangan-padel-tipe-klasik.jpg",
+        "https://padelkultura.id/images/PADELCOURTC-SHAPE.webp"
+      ],
       "name": "Lapangan Padel Import Standar Internasional",
       "description": "Lapangan padel berkualitas tinggi dengan standar FIP (Federación Internacional de Padel). Material impor, rangka baja galvanis, kaca tempered 10mm, rumput sintetis premium, sistem pencahayaan LED profesional.",
       "brand": {
@@ -228,6 +232,41 @@
         "url": "https://padelkultura.id/Padel-Tipe-Super-Panoramic.html",
         "seller": {
           "@id": "https://padelkultura.id/#organization"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 14,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+          "merchantReturnDays": 7,
+          "returnMethod": "https://schema.org.ReturnByMail",
+          "returnFees": "https://schema.org.FreeReturn"
         }
       },
       "review": [
