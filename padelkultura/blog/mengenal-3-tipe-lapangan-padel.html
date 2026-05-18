@@ -23,7 +23,25 @@
 		"logo": "images/PADELKULTURALOGOpersegi.png"
 }</script>
     <meta name="theme-color" content="#ec8700">
-  <script type="application/ld+json">
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    if (gdprConfirmed()) {
+    document.write("\
+    \
+    <!-- Google Analytics -->\
+    <gascript async src=\"https://www.googletagmanager.com/gtag/js?id=G-604ECVQHSN\"></gascript>\
+    <gascript>\
+        window.dataLayer = window.dataLayer || [];\
+        function gtag(){dataLayer.push(arguments);}\
+        gtag('js', new Date());\
+        gtag('config', 'G-604ECVQHSN');\
+    </gascript>\
+    <!-- End Google Analytics -->\
+    ".replace(/gascript/g, 'script'));
+    }
+    </script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
