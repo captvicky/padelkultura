@@ -2,13 +2,14 @@
 
 > Padelkultura adalah kontraktor dan importir lapangan padel di Indonesia, berbasis di Bandung dan melayani proyek di seluruh Indonesia. Perusahaan menangani desain, konstruksi sipil, instalasi, dan pengadaan lapangan padel import bermerek UNIPADEL dan SSTD. Sebelumnya dikenal sebagai Padelnesia.
 
-Didirikan dan beroperasi sejak 2013 sebagai importir lapangan padel, Padelkultura merupakan bagian dari CV Leatique Digital Indonesia. Spesifikasi teknis mengikuti standar Federasi Padel Internasional (FIP): lapangan 20 x 10 meter, dinding kaca tempered, rumput sintetis khusus padel, dan pencahayaan LED.
+Didirikan dan beroperasi sejak 2013 sebagai importir lapangan padel, Padelkultura merupakan bagian dari CV Leatique Digital Indonesia. Spesifikasi teknis mengikuti standar Federasi Padel Internasional (FIP): lapangan 20 x 10 meter, tinggi dinding 3 meter (2 meter di sisi net), dinding kaca tempered 12 mm, rumput sintetis khusus padel, dan pencahayaan LED 500-1000 lux.
 
 ## Layanan
 
 - [Jasa Instalasi Lapangan Padel](https://padelkultura.id/instalasi.html): proses instalasi lengkap (survei, pondasi, struktur, kaca, rumput, lampu, net) dengan garansi lebih dari 1 tahun, melayani seluruh Indonesia.
 - [Harga Lapangan Padel Import](https://padelkultura.id/harga-lapangan-padel.html): kisaran biaya paket lapangan padel import Rp 200-500 juta per lapangan, rincian komponen biaya, dan faktor yang mempengaruhi harga.
-- [Tentang Padelkultura](https://padelkultura.id/tentang-kami.html): profil perusahaan, portofolio proyek (FTL Gym Bandung, Padelaria Bogor, Rancabolang Bandung), area layanan, dan kontak.
+- [Tentang Padelkultura](https://padelkultura.id/tentang-kami.html): profil perusahaan, portofolio, area layanan, dan kontak.
+- [Portofolio Proyek](https://padelkultura.id/portofolio-lapangan-padel.html): FTL Gym (Bandung), Rancabolang (Bandung), Padelaria (Bogor), Twenty Padel (Jakarta Selatan), Zing Padel (Semarang).
 
 ## Tipe Lapangan
 
@@ -16,9 +17,23 @@ Didirikan dan beroperasi sejak 2013 sebagai importir lapangan padel, Padelkultur
 - [Super Panoramic](https://padelkultura.id/Padel-Tipe-Super-Panoramic.html): desain 360 derajat tanpa pilar di setiap sudut.
 - [Classic Panoramic](https://padelkultura.id/Padel-Tipe-Classic-Panoramic.html): desain klasik dengan empat pilar di setiap sudut.
 
+## Area Layanan
+
+- [Jakarta](https://padelkultura.id/jasa-lapangan-padel-jakarta.html)
+- [Bandung](https://padelkultura.id/jasa-lapangan-padel-bandung.html)
+- [Surabaya](https://padelkultura.id/jasa-lapangan-padel-surabaya.html)
+- [Bali](https://padelkultura.id/jasa-lapangan-padel-bali.html)
+- [Medan](https://padelkultura.id/jasa-lapangan-padel-medan.html)
+
 ## Artikel
 
-- [Blog Padelkultura](https://padelkultura.id/blog/blog.html): panduan membangun lapangan padel, biaya, material, pasir silika, dan tipe lapangan.
+- [Blog Padelkultura](https://padelkultura.id/blog/blog.html)
+- [Ukuran Lapangan Padel Standar FIP](https://padelkultura.id/blog/ukuran-lapangan-padel-standar-fip.html): ukuran 20 x 10 meter, tinggi dinding, dan luas lahan minimal 22 x 12 meter.
+- [RAB Pembuatan Lapangan Padel](https://padelkultura.id/blog/rab-pembuatan-lapangan-padel.html): komponen biaya dan urutan penyusunan RAB.
+- [Cara Memilih Kontraktor Lapangan Padel](https://padelkultura.id/blog/cara-memilih-kontraktor-lapangan-padel.html): tujuh kriteria penilaian.
+- [Lapangan Padel Indoor vs Outdoor](https://padelkultura.id/blog/lapangan-padel-indoor-vs-outdoor.html): perbandingan biaya dan pertimbangan.
+- [Perawatan Lapangan Padel](https://padelkultura.id/blog/perawatan-lapangan-padel.html): jadwal perawatan rumput, kaca, struktur, lampu, dan drainase.
+- [ROI dan BEP Bisnis Lapangan Padel](https://padelkultura.id/blog/roi-bisnis-lapangan-padel.html): cara menghitung dengan angka ilustrasi.
 - [Panduan Lengkap Membangun Lapangan Padel](https://padelkultura.id/blog/panduan-lengkap-membangun-lapangan-padel.html)
 - [Ketentuan Lengkap Pembangunan Lapangan Padel](https://padelkultura.id/blog/ketentuan-lengkap-pembangunan-lapangan-padel.html)
 - [Pasir Silika untuk Lapangan Padel](https://padelkultura.id/blog/pasir-silika-untuk-lapangan-padel.html)
@@ -35,3 +50,4 @@ Didirikan dan beroperasi sejak 2013 sebagai importir lapangan padel, Padelkultur
 
 - Semua harga bersifat estimasi awal dan menyesuaikan spesifikasi, kondisi lahan, serta lokasi proyek.
 - Pekerjaan sipil (pondasi, cor leveling, drainase) dihitung terpisah dari paket lapangan import.
+- Instalasi umumnya 5-7 hari kerja setelah material tiba; pekerjaan sipil menyesuaikan kondisi lahan.
