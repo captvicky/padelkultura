@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Pemantauan progress perbaikan kebocoran atap Xploria Padel Court Malang">
+<title>Progress Perbaikan Atap — Xploria Padel Court</title>
+<style>
+  :root {
+    --bg:#f5f6f8; --card:#ffffff; --ink:#151a22; --muted:#5d6673;
+    --line:#e3e7ee; --accent:#14324f;
+    --critical:#b42318; --high:#b54708; --medium:#8a6d00; --ok:#067647;
+    --blue:#175cd3; --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08);
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:760px; margin:0 auto; padding:0 16px; }
+  header.hero { background:var(--accent); color:#fff; padding:28px 0 22px; }
+  .kicker { font-size:11px; letter-spacing:.12em; text-transform:uppercase; opacity:.75; }
+  header.hero h1 { font-size:24px; line-height:1.2; margin:8px 0 6px; font-weight:700; }
+  header.hero .loc { margin:0; font-size:13.5px; opacity:.9; }
+  .metaline { display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:14px;
+    font-size:12px; opacity:.85; }
+  .metaline span { display:inline-flex; align-items:center; gap:5px; }
+  main { padding:20px 0 40px; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:14px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:12px 8px; text-align:center; box-shadow:var(--shadow); }
+  .stat b { display:block; font-size:20px; line-height:1.1; }
+  .stat span { font-size:11.5px; color:var(--muted); }
+  .notice { background:#fffbeb; border:1px solid #f2e2b6; border-radius:12px;
+    padding:14px 16px; margin-bottom:18px; }
+  .notice .dl { font-size:13.5px; font-weight:700; color:#7a4d00; }
+  .notice .cd { font-size:13px; color:#7a4d00; font-weight:600; }
+  .notice p { margin:8px 0 0; font-size:13px; line-height:1.5; color:#5b4600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:16px; margin-bottom:12px; box-shadow:var(--shadow); }
+  .card.st-dijadwalkan { border-color:#c7d7fe; }
+  .card-head { display:flex; gap:12px; align-items:flex-start; }
+  .pid { flex:0 0 auto; width:42px; height:42px; border-radius:10px; background:#eef2f7;
+    display:flex; align-items:center; justify-content:center; font-weight:700; font-size:15px;
+    color:var(--accent); }
+  .headtext { flex:1 1 auto; min-width:0; }
+  .card h2 { font-size:15.5px; margin:0 0 6px; line-height:1.3; font-weight:700; }
+  .tagrow { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .sev { font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px;
+    border:1px solid transparent; }
+  .sev-critical { color:var(--critical); background:#fef3f2; border-color:#fecdca; }
+  .sev-high { color:var(--high); background:#fff6ed; border-color:#fddcab; }
+  .sev-medium { color:var(--medium); background:#fffbea; border-color:#f0e2a8; }
+  .chip { font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px;
+    color:#475467; background:#f2f4f7; border:1px solid #e4e7ec; }
+  .chip-dijadwalkan { color:var(--blue); background:#eff4ff; border-color:#c7d7fe; }
+  .chip-dikerjakan, .chip-uji { color:var(--high); background:#fff6ed; border-color:#fddcab; }
+  .chip-selesai, .chip-verifikasi { color:var(--ok); background:#ecfdf3; border-color:#abefc6; }
+  .startdate { font-size:11.5px; color:var(--muted); }
+  .pct { font-size:13px; font-weight:700; color:var(--muted); flex:0 0 auto; }
+  .bar { height:6px; background:#eef1f5; border-radius:999px; margin:12px 0 12px; overflow:hidden; }
+  .bar span { display:block; height:100%; background:var(--blue); border-radius:999px; }
+  .finding { margin:0 0 6px; font-size:13.5px; line-height:1.55; }
+  .impact { margin:0 0 12px; font-size:12.5px; color:var(--muted); line-height:1.5; }
+  .shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin:10px 0 12px; }
+  .shots figure { margin:0; background:#f7f8fa; border:1px solid var(--line);
+    border-radius:10px; overflow:hidden; }
+  .shots img { width:100%; height:118px; object-fit:cover; display:block; }
+  .shots figcaption { font-size:11px; color:var(--muted); padding:7px 8px; line-height:1.35; }
+  .shots figcaption span { display:inline-block; font-size:9.5px; font-weight:700;
+    letter-spacing:.06em; text-transform:uppercase; color:#8a94a6; margin-right:4px; }
+  .shots.empty { display:block; border:1px dashed #cfd6e0; border-radius:10px;
+    padding:14px; text-align:center; font-size:12px; color:#8a94a6; background:#fafbfc; }
+  details.plan { border-top:1px solid var(--line); padding-top:10px; }
+  details.plan summary { cursor:pointer; font-size:13px; font-weight:700; color:var(--accent); }
+  details.plan ol { margin:10px 0 0; padding-left:20px; }
+  details.plan li { font-size:13px; line-height:1.55; margin-bottom:6px; color:#333c4a; }
+  .after { margin:10px 0 0; font-size:11.5px; color:#8a94a6; }
+  h2.section { font-size:15px; margin:26px 0 10px; font-weight:700; }
+  ul.timeline { list-style:none; margin:0; padding:0; }
+  .tl { position:relative; padding:0 0 16px 20px; border-left:2px solid var(--line);
+    margin-left:5px; }
+  .tl:last-child { border-left-color:transparent; padding-bottom:0; }
+  .tl::before { content:""; position:absolute; left:-7px; top:3px; width:12px; height:12px;
+    border-radius:50%; background:#fff; border:2px solid var(--line); }
+  .tl-rencana::before { border-color:var(--blue); }
+  .tl-dokumen::before { border-color:#98a2b3; }
+  .tl-date { font-size:11.5px; color:var(--muted); font-weight:600; }
+  .tl-body h3 { font-size:13.5px; margin:3px 0 4px; }
+  .tl-body p { margin:0 0 4px; font-size:12.5px; line-height:1.55; color:#333c4a; }
+  .tl-src { font-size:11px; color:#98a2b3; }
+  footer { margin-top:26px; padding-top:16px; border-top:1px solid var(--line);
+    font-size:11.5px; color:#8a94a6; line-height:1.6; }
+  footer b { color:#667085; }
+  @media (max-width:420px) {
+    header.hero h1 { font-size:20px; }
+    .stats { grid-template-columns:repeat(2,1fr); }
+    .card-head { gap:10px; }
+    .pid { width:36px; height:36px; font-size:13px; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Pemantauan Progress · Halaman Sementara</div>
+    <h1>Perbaikan Kebocoran Atap</h1>
+    <p class="loc">Xploria Padel Court — Jl. Tangkuban Perahu No. 11, Kauman, Kec. Klojen, Kota Malang</p>
+    <div class="metaline">
+      <span>Dokumen: Punch List No. 001/PL-XPL/PDLK/XI/2026</span>
+      <span>Pemilik: Ibu Nuril</span>
+      <span>Diperbarui: 12 Nov 2026, 01:45 WIB</span>
+      <span><a href="https://padelkultura.id/" style="color:#b9cfe8;text-decoration:none">← padelkultura.id</a></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats">
+    <div class="stat"><b>5</b><span>Titik</span></div>
+    <div class="stat"><b>0</b><span>Selesai</span></div>
+    <div class="stat"><b>1</b><span>Dijadwalkan</span></div>
+    <div class="stat"><b>4</b><span>Belum dimulai</span></div>
+  </section>
+
+  <div class="notice">
+    <span class="dl">Tenggat 14 Nov 2026</span>
+    <span class="cd" id="countdown"></span>
+    <p>Tahap ini difokuskan pada T3 — uji coba di area belakang/atas kamar mandi. Titik lain menyusul setelah hasil uji coba dinilai berhasil.</p>
+  </div>
+
+  
+    <article class="card st-belum">
+      <div class="card-head">
+        <div class="pid">T1</div>
+        <div class="headtext">
+          <h2>Sisi kanan Lapangan Super Panoramic</h2>
+          <div class="tagrow">
+            <span class="sev sev-critical">Kritis</span>
+            <span class="chip chip-belum">Belum dimulai</span>
+            
+          </div>
+        </div>
+        <div class="pct">0%</div>
+      </div>
+      <div class="bar"><span style="width:0%"></span></div>
+      <p class="finding">Bocor deras dari sisi tembok melalui paranet; air masuk ke lapangan Super Panoramic dan lobby depan.</p>
+      <p class="impact"><b>Dampak:</b> Lapangan Super Panoramic, lobby depan, dan area SIMA Lab.</p>
+      <div class="shots"><figure><img src="/malangprogress/assets/F01-t1-lapangan-super-panoramic.jpg" alt="Aliran air dari sisi tembok ke lapangan" loading="lazy"><figcaption><span>Sebelum</span> Aliran air dari sisi tembok ke lapangan</figcaption></figure></div>
+      
+      <p class="after">Bukti foto sesudah: <b>0 foto</b></p>
+    </article>
+    <article class="card st-belum">
+      <div class="card-head">
+        <div class="pid">T2</div>
+        <div class="headtext">
+          <h2>Sisi kiri Lapangan Single</h2>
+          <div class="tagrow">
+            <span class="sev sev-medium">Sedang</span>
+            <span class="chip chip-belum">Belum dimulai</span>
+            
+          </div>
+        </div>
+        <div class="pct">0%</div>
+      </div>
+      <div class="bar"><span style="width:0%"></span></div>
+      <p class="finding">Rembesan pada satu titik dinding kiri, tidak deras.</p>
+      <p class="impact"><b>Dampak:</b> Dinding kiri Lapangan Single.</p>
+      <div class="shots"><figure><img src="/malangprogress/assets/F02-t2-lapangan-single.jpg" alt="Titik rembesan pada dinding kiri" loading="lazy"><figcaption><span>Sebelum</span> Titik rembesan pada dinding kiri</figcaption></figure></div>
+      
+      <p class="after">Bukti foto sesudah: <b>0 foto</b></p>
+    </article>
+    <article class="card st-dijadwalkan">
+      <div class="card-head">
+        <div class="pid">T3</div>
+        <div class="headtext">
+          <h2>Atas plafon kamar mandi pria</h2>
+          <div class="tagrow">
+            <span class="sev sev-high">Tinggi</span>
+            <span class="chip chip-dijadwalkan">Dijadwalkan — uji coba</span>
+            <span class="startdate">Mulai 12 Nov 2026</span>
+          </div>
+        </div>
+        <div class="pct">0%</div>
+      </div>
+      <div class="bar"><span style="width:0%"></span></div>
+      <p class="finding">Air menggenang di atas plafon kamar mandi pria akibat tampias dari sisi paranet.</p>
+      <p class="impact"><b>Dampak:</b> Plafon dan dinding kamar mandi pria.</p>
+      <div class="shots"><figure><img src="/malangprogress/assets/F03-t3-plafon-kamar-mandi-pria.jpg" alt="Air menggenang di plafon kamar mandi pria" loading="lazy"><figcaption><span>Sebelum</span> Air menggenang di plafon kamar mandi pria</figcaption></figure><figure><img src="/malangprogress/assets/F04-t3-jalur-air-atas.jpg" alt="Jalur air dari sisi atas" loading="lazy"><figcaption><span>Sebelum</span> Jalur air dari sisi atas</figcaption></figure></div>
+      <details class="plan"><summary>Rencana kerja (6 langkah)</summary><ol><li>Saluran gutter di dinding antara Xploria dan Sima: pipa dipotong setengah untuk mengalirkan air ke depan, setiap bak kontrol dialirkan ke bawah.</li><li>Paranet dipotong sekitar 15 cm, kemudian diarahkan ke gutter pipa.</li><li>Area atas kamar mandi: paranet dilapisi fiber flat dari atas sampai ke bawah.</li><li>Dinding kamar mandi ke arah depan: fiber flat dipasang 1/3 ke bawah agar aliran hawa masuk tetap ada.</li><li>Tenaga kerja: tim Mas Yanto, mulai pagi.</li><li>Pekerjaan diuji coba dulu di area belakang/atas kamar mandi; bila berhasil dilanjutkan ke area depan.</li></ol></details>
+      <p class="after">Bukti foto sesudah: <b>0 foto</b></p>
+    </article>
+    <article class="card st-belum">
+      <div class="card-head">
+        <div class="pid">T4</div>
+        <div class="headtext">
+          <h2>Area Ruang Private Office</h2>
+          <div class="tagrow">
+            <span class="sev sev-critical">Kritis</span>
+            <span class="chip chip-belum">Belum dimulai</span>
+            
+          </div>
+        </div>
+        <div class="pct">0%</div>
+      </div>
+      <div class="bar"><span style="width:0%"></span></div>
+      <p class="finding">Bocor menyeluruh ke dalam ruangan; plafon tergenang air.</p>
+      <p class="impact"><b>Dampak:</b> Ruang Private Office dan interior di bawahnya.</p>
+      <div class="shots"><figure><img src="/malangprogress/assets/F05-t4-celah-dinding-panel.jpg" alt="Celah pada dinding panel" loading="lazy"><figcaption><span>Sebelum</span> Celah pada dinding panel</figcaption></figure><figure><img src="/malangprogress/assets/F06-t4-dinding-private-office.jpg" alt="Dinding Private Office yang terkena aliran air" loading="lazy"><figcaption><span>Sebelum</span> Dinding Private Office yang terkena aliran air</figcaption></figure></div>
+      
+      <p class="after">Bukti foto sesudah: <b>0 foto</b></p>
+    </article>
+    <article class="card st-belum">
+      <div class="card-head">
+        <div class="pid">T5</div>
+        <div class="headtext">
+          <h2>Area Mushola dan sekitarnya</h2>
+          <div class="tagrow">
+            <span class="sev sev-medium">Sedang</span>
+            <span class="chip chip-belum">Belum dimulai</span>
+            
+          </div>
+        </div>
+        <div class="pct">0%</div>
+      </div>
+      <div class="bar"><span style="width:0%"></span></div>
+      <p class="finding">Rembesan pada dinding belakang area Mushola.</p>
+      <p class="impact"><b>Dampak:</b> Dinding belakang Mushola.</p>
+      <div class="shots empty">Foto sebelum belum tersedia</div>
+      
+      <p class="after">Bukti foto sesudah: <b>0 foto</b></p>
+    </article>
+
+  <h2 class="section">Riwayat update</h2>
+  <ul class="timeline">
+      <li class="tl tl-rencana">
+        <div class="tl-date">11 Nov 2026 · 18:45</div>
+        <div class="tl-body">
+          <h3>Rencana kerja T3 disepakati</h3>
+          <p>Hasil diskusi dengan Pak Hani dan Mas Yanto: perbaikan difokuskan ke T3 lebih dulu. Metode: gutter pipa di dinding Xploria–Sima, paranet dipotong 15 cm, dan fiber flat di area kamar mandi. Pelaksanaan oleh tim Mas Yanto, mulai 12 November pagi, dengan uji coba di area belakang.</p>
+          <span class="tl-src">Sumber: Diskusi dengan pemilik</span>
+        </div>
+      </li>
+      <li class="tl tl-dokumen">
+        <div class="tl-date">8 Nov 2026</div>
+        <div class="tl-body">
+          <h3>Punch list diterbitkan</h3>
+          <p>Laporan Punch List No. 001/PL-XPL/PDLK/XI/2026 memuat 5 titik kebocoran (T1–T5), instruksi mitigasi, dan tenggat satu minggu.</p>
+          <span class="tl-src">Sumber: Dokumen proyek</span>
+        </div>
+      </li></ul>
+
+  <footer>
+    <b>Catatan:</b> halaman ini bersifat informasi sementara untuk memantau progress
+    perbaikan, bukan berita acara serah terima dan bukan dokumen kontraktual.
+    Status diperbarui berdasarkan laporan pelaksana dan hasil pemeriksaan lapangan.
+  </footer>
+</main>
+
+<script>
+  (function () {
+    var dl = new Date("2026-11-14T23:59:59+07:00");
+    var now = new Date();
+    var diff = Math.ceil((dl - now) / 86400000);
+    var el = document.getElementById("countdown");
+    if (!el) return;
+    if (diff > 0) el.textContent = "· sisa " + diff + " hari";
+    else if (diff === 0) el.textContent = "· hari ini";
+    else el.textContent = "· lewat " + Math.abs(diff) + " hari";
+  })();
+</script>
+</body>
+</html>
