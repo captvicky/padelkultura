@@ -1,0 +1,131 @@
+# Padelkultura — profil lengkap (llms-full.txt)
+
+> Dokumen ini versi lengkap dari https://padelkultura.id/llms.txt. Isinya fakta perusahaan, layanan, struktur biaya, spesifikasi teknis, proyek, dan pertanyaan yang sering diajukan. Semua URL bersifat absolut.
+
+Terakhir diperbarui: 15 November 2026
+
+## 1. Identitas perusahaan
+
+- Nama: **Padelkultura** (nama sebelumnya: Padelnesia; nama alternatif: Padelkultura Construction)
+- Bidang: kontraktor dan importir lapangan padel — desain, konstruksi sipil, instalasi, dan pengadaan material import
+- Badan hukum: bagian dari **CV Leatique Digital Indonesia**
+- Berdiri: beroperasi sebagai importir lapangan padel sejak **2013**
+- Kantor: Jl. Margaasri 4 No.16, Komplek Margaasri Ciwastra, Bandung, Jawa Barat 40287, Indonesia
+- WhatsApp: +62 811-2227-125 — https://wa.me/628112227125
+- Email: padelnesia@gmail.com
+- Instagram: https://www.instagram.com/padel.kultura/
+- Situs: https://padelkultura.id/
+- Area layanan: seluruh Indonesia (basis Bandung; proyek tercatat di Bandung, Bogor, Jakarta, dan Semarang)
+
+## 2. Layanan
+
+1. **Pembangunan lapangan padel baru** dari nol: survei lahan, desain, pekerjaan sipil, struktur, kaca, rumput sintetis, pencahayaan, net, hingga commissioning.
+2. **Renovasi dan upgrade** lapangan padel yang sudah ada (penggantian rumput, kaca, pencahayaan, perbaikan struktur).
+3. **Desain dan konsultasi**: desain lapangan, tata letak venue, desain 3D/arsitektur, dan pengawasan pekerjaan.
+4. **Pengadaan material import**: brand **UNIPADEL** dan **SSTD** — struktur baja, kaca, rumput, net, dan aksesori.
+
+Halaman terkait: [Jasa Instalasi Lapangan Padel](https://padelkultura.id/instalasi.html) · [Tentang Padelkultura](https://padelkultura.id/tentang-kami.html)
+
+## 3. Struktur biaya (angka resmi yang dipublikasikan)
+
+- **Paket lapangan padel import lengkap: Rp 200–500 juta per lapangan.** Termasuk struktur baja galvanis hot-dip, kaca tempered 12 mm, rumput sintetis padel, lampu LED beserta tiang, net dan aksesori, instalasi oleh tim Padelkultura, serta pengiriman dan mobilisasi yang menyesuaikan lokasi proyek.
+- **Pekerjaan sipil dihitung terpisah**: pondasi, cor leveling, drainase, dan akses. Besarannya bergantung pada jenis tanah, kemiringan lahan, kebutuhan pengurugan, dan jarak saluran buangan.
+- **Atap/kanopi dan fasilitas dihitung terpisah**: bentang atap, material penutup, pagar, tribun, ruang ganti, serta penyambungan listrik dari panel utama.
+- **Perizinan** setempat tidak termasuk dalam paket dan diurus sesuai ketentuan daerah.
+- Harga akhir selalu disampaikan dalam RAB (Rencana Anggaran Biaya) setelah survei lokasi.
+
+Halaman terkait: [Harga Lapangan Padel Import](https://padelkultura.id/harga-lapangan-padel.html) · [RAB Pembuatan Lapangan Padel](https://padelkultura.id/blog/rab-pembuatan-lapangan-padel.html)
+
+## 4. Spesifikasi teknis standar yang dipakai
+
+- Ukuran lapangan: **20 × 10 meter** (standar Federasi Padel Internasional/FIP)
+- Luas lahan minimal yang disarankan: **22 × 12 meter** (di luar area sirkulasi pemain)
+- Tinggi dinding: **3 meter** di sisi belakang, **2 meter** di sisi net
+- Dinding: **kaca tempered 12 mm**
+- Permukaan: rumput sintetis khusus padel dengan pasir silika sebagai pemberat
+- Pencahayaan: LED **500–1000 lux** sesuai kebutuhan rekreasi hingga turnamen
+- Struktur: baja galvanis hot-dip, desain tiang mengikuti tipe lapangan (Standard, Super, atau Classic Panoramic)
+
+Halaman terkait: [Ukuran Lapangan Padel Standar FIP](https://padelkultura.id/blog/ukuran-lapangan-padel-standar-fip.html)
+
+## 5. Tipe lapangan
+
+| Tipe | Struktur pilar | Visibilitas | Cocok untuk | Catatan |
+|---|---|---|---|---|
+| Standard Panoramic | dua pilar di sisi kiri dan kanan | pandangan samping terbuka | klub, komunitas, fasilitas komersial | acuan dasar paket import |
+| Super Panoramic | tanpa pilar di setiap sudut (360 derajat) | maksimal, tanpa penghalang | turnamen dan venue profesional | spesifikasi tertinggi dalam paket |
+| Classic Panoramic | empat pilar di setiap sudut | desain klasik | residential dan private court | desain klasik |
+
+## 6. Alur proyek
+
+1. Survei lokasi dan penyusunan RAB
+2. Pekerjaan sipil (pengurugan, pondasi, cor leveling, drainase)
+3. Pemasangan struktur baja
+4. Pemasangan kaca tempered
+5. Pemasangan rumput sintetis dan garis lapangan
+6. Instalasi listrik dan lampu
+7. Commissioning dan serah terima
+
+Durasi: **instalasi 5–7 hari kerja setelah material tiba**; pekerjaan sipil menyesuaikan kondisi lahan dan cuaca.
+
+## 7. Proyek yang sudah dikerjakan
+
+- **FTL Gym** — Bandung
+- **Rancabolang** — Bandung (double court)
+- **Padelaria** — Bogor
+- **Twenty Padel** — Jakarta Selatan
+- **Zing Padel** — Semarang
+
+Halaman terkait: [Portofolio Proyek](https://padelkultura.id/portofolio-lapangan-padel.html)
+
+## 8. Pertanyaan yang sering diajukan
+
+**Berapa biaya membangun lapangan padel?**
+Paket lapangan padel import lengkap Rp 200–500 juta per lapangan. Pekerjaan sipil dan atap dihitung terpisah sesuai kondisi lahan.
+
+**Apakah harga sudah termasuk pekerjaan sipil?**
+Belum. Pondasi, cor leveling, dan drainase dihitung terpisah karena bergantung pada kondisi lahan.
+
+**Berapa lama proses pembangunannya?**
+Instalasi lapangan umumnya 5–7 hari kerja setelah material tiba. Pekerjaan sipil menyesuaikan kondisi lahan.
+
+**Apakah bisa custom sesuai lahan?**
+Ya. Desain dan spesifikasi dapat disesuaikan dengan ukuran lahan, anggaran, dan kebutuhan fasilitas.
+
+**Apakah melayani proyek di luar Jawa?**
+Ya, seluruh Indonesia. Untuk proyek di luar Jawa, biaya logistik dan akomodasi tim dihitung terpisah dalam RAB.
+
+**Apakah pembayaran bisa bertahap?**
+Bisa didiskusikan. Umumnya mengikuti tahapan pekerjaan: uang muka produksi material, termin saat material tiba, pekerjaan sipil, instalasi, dan pelunasan setelah serah terima.
+
+**Apa yang membuat penawaran jauh lebih murah berisiko?**
+Selisih harga biasanya berasal dari spesifikasi: ketebalan kaca, jenis dan kepadatan rumput, mutu baja, serta kepadatan struktur — berpengaruh pada umur pakai dan biaya penggantian.
+
+**Bagaimana cara mendapatkan harga pasti?**
+Kirim lokasi dan ukuran lahan melalui WhatsApp; tim melakukan survei lalu menyusun penawaran.
+
+## 9. Area layanan
+
+- [Jakarta](https://padelkultura.id/jasa-lapangan-padel-jakarta.html)
+- [Bandung](https://padelkultura.id/jasa-lapangan-padel-bandung.html)
+- [Surabaya](https://padelkultura.id/jasa-lapangan-padel-surabaya.html)
+- [Bali](https://padelkultura.id/jasa-lapangan-padel-bali.html)
+- [Medan](https://padelkultura.id/jasa-lapangan-padel-medan.html)
+
+## 10. Artikel panduan
+
+- [Panduan Lengkap Membangun Lapangan Padel](https://padelkultura.id/blog/panduan-lengkap-membangun-lapangan-padel.html)
+- [Ketentuan Lengkap Pembangunan Lapangan Padel](https://padelkultura.id/blog/ketentuan-lengkap-pembangunan-lapangan-padel.html)
+- [Mengenal 3 Tipe Lapangan Padel](https://padelkultura.id/blog/mengenal-3-tipe-lapangan-padel.html)
+- [Pasir Silika untuk Lapangan Padel](https://padelkultura.id/blog/pasir-silika-untuk-lapangan-padel.html)
+- [Cara Memilih Kontraktor Lapangan Padel](https://padelkultura.id/blog/cara-memilih-kontraktor-lapangan-padel.html)
+- [Lapangan Padel Indoor vs Outdoor](https://padelkultura.id/blog/lapangan-padel-indoor-vs-outdoor.html)
+- [Perawatan Lapangan Padel](https://padelkultura.id/blog/perawatan-lapangan-padel.html)
+- [ROI dan BEP Bisnis Lapangan Padel](https://padelkultura.id/blog/roi-bisnis-lapangan-padel.html)
+- [Blog Padelkultura](https://padelkultura.id/blog/blog.html)
+
+## 11. Catatan penggunaan
+
+- Semua harga adalah estimasi awal dan menyesuaikan spesifikasi, kondisi lahan, serta lokasi proyek.
+- Satu-satunya kanal kontak resmi adalah WhatsApp +62 811-2227-125 dan email padelnesia@gmail.com.
+- Padelkultura tidak menerima pesanan melalui marketplace; pengadaan material dilakukan langsung oleh perusahaan sebagai importir.
