@@ -4,3 +4,7 @@ h2.pk-h1-size { font-size: 3rem; line-height: 1.1; }
 .pk-product .u-section-1 h1.u-text-1 { line-height: 1.6; }
 h1.u-blog-control.u-text-1 { font-size: 2.25rem; }
 @media (max-width: 575px) { h1.u-blog-control.u-text-1 { font-size: 1.5rem; } }
+
+/* H2 artikel: pertahankan tampilan seperti paragraf tebal aslinya */
+h2.pk-article-h2, .fr-view h2.pk-article-h2 { font-size: 1.2rem; line-height: 1.5; font-weight: 700; margin: 26px 0 10px; }
+@media (max-width: 575px) { h2.pk-article-h2, .u-xs .fr-view h2.pk-article-h2 { font-size: 1.1rem; margin: 22px 0 8px; } }
